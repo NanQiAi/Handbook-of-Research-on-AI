@@ -242,23 +242,23 @@ Transformer 章节 新增：Transformer-XL, XLNet, MT-DNN, ERNIE, ERNIE 2.0, BER
 - 四、LDA优化
 - 五、sentence-LDA
 - 六、模型讨论
-- 深度学习
-- 0.深度学习简介
+### 深度学习
+#### 0.深度学习简介
 - 一、 介绍
 - 二、历史
-- 1.深度前馈神经网络
+#### 1.深度前馈神经网络
 - 一、基础
 - 二、损失函数
 - 三、输出单元
 - 四、隐单元
 - 五、结构设计
 - 六、历史小记
-- 2.反向传播算法
+#### 2.反向传播算法
 - 一、链式法则
 - 二、反向传播
 - 三、算法实现
 - 四、自动微分
-- 3.正则化
+#### 3.正则化
 - 一、参数范数正则化
 - 二、显式约束正则化
 - 三、数据集增强
@@ -269,7 +269,7 @@ Transformer 章节 新增：Transformer-XL, XLNet, MT-DNN, ERNIE, ERNIE 2.0, BER
 - 八、对抗训练
 - 九、正切传播算法
 - 十、其它相关
-- 4.最优化基础
+#### 4.最优化基础
 - 一、代价函数
 - 二、神经网络最优化挑战
 - 三、 mini-batch
@@ -281,13 +281,13 @@ Transformer 章节 新增：Transformer-XL, XLNet, MT-DNN, ERNIE, ERNIE 2.0, BER
 - 九、参数初始化策略
 - 十、Normalization
 - 十一、Online Learning
-- 5.卷积神经网络
+#### 5.卷积神经网络
 - 一、卷积运算
 - 二、卷积层、池化层
 - 三、基本卷积的变体
 - 四、应用
 - 五、 历史和现状
-- 5.1.CNN之图片分类
+#### 5.1.CNN之图片分类
 - 一、LeNet
 - 二、AlexNet
 - 三、VGG-Net
@@ -297,12 +297,12 @@ Transformer 章节 新增：Transformer-XL, XLNet, MT-DNN, ERNIE, ERNIE 2.0, BER
 - 七、SENet
 - 八、 DenseNet
 - 九、小型网络
-- 6.循环神经网络
+#### 6.循环神经网络
 - 一、RNN计算图
 - 二、训练算法
 - 三、长期依赖
 - 四、常见 RNN 变种
-- 7.Transformer
+#### 7.Transformer
 - 一、Transformer
 - 二、Universal Transformer
 - 三、Transformer XL
@@ -312,7 +312,7 @@ Transformer 章节 新增：Transformer-XL, XLNet, MT-DNN, ERNIE, ERNIE 2.0, BER
 - 七、XLNet
 - 八、MT-DNN
 - 九、BERT 扩展
-- 8.词向量
+#### 8.词向量
 - 一、向量空间模型 VSM
 - 二、LSA
 - 三、Word2Vec
@@ -320,7 +320,7 @@ Transformer 章节 新增：Transformer-XL, XLNet, MT-DNN, ERNIE, ERNIE 2.0, BER
 - 五、FastText
 - 六、ELMo
 - 七、变种
-- 10.神经网络 CTR 预估模型
+#### 10.神经网络 CTR 预估模型
 - 一、DSSM[2013]
 - 二、FNN[2016]
 - 三、PNN[2016]
@@ -336,7 +336,7 @@ Transformer 章节 新增：Transformer-XL, XLNet, MT-DNN, ERNIE, ERNIE 2.0, BER
 - 十三、DIEN[2019]
 - 十四、DSIN[2019]
 - 十五、DICM[2017]
-- 11.神经网络 CTR 预估模型(续)
+#### 11.神经网络 CTR 预估模型(续)
 - 十六、DeepMCP[2019]
 - 十七、MIMN[2019]
 - 十八、DMR[2020]
@@ -347,7 +347,7 @@ Transformer 章节 新增：Transformer-XL, XLNet, MT-DNN, ERNIE, ERNIE 2.0, BER
 - 二十三、ESM2[2019]
 - 二十四、MV-DNN[2015]
 - 二十五、CAN[2020]
-- 9.传统 CTR 预估模型
+#### 9.传统 CTR 预估模型
 - 一、LR 模型[2007]
 - 二、POLY2 模型[2010]
 - 三、FM模型[2011]
@@ -355,7 +355,7 @@ Transformer 章节 新增：Transformer-XL, XLNet, MT-DNN, ERNIE, ERNIE 2.0, BER
 - 五、GBDT-LR 模型[2014]
 - 六、FTRL工程应用[2013]
 - 七、LS-PLM 模型[2017]
-- 13.Graph Embedding(续)
+#### 13.Graph Embedding(续)
 - 十七、PTE[2015]
 - 十八、HNE[2015]
 - 十九、AANE[2017]
@@ -370,7 +370,7 @@ Transformer 章节 新增：Transformer-XL, XLNet, MT-DNN, ERNIE, ERNIE 2.0, BER
 - 二十八、MVN2VEC[2018]
 - 二十九、SNE[2018]
 - 三十、ProNE[2019]
-- 12.Graph Embedding
+#### 12.Graph Embedding
 - 一、DeepWalk[2014]
 - 二、LINE[2015]
 - 三、GraRep[2015]
@@ -387,7 +387,7 @@ Transformer 章节 新增：Transformer-XL, XLNet, MT-DNN, ERNIE, ERNIE 2.0, BER
 - 十四、GraphWave[2018]
 - 十五、NetMF[2017]
 - 十六、NetSMF[2019]
-- 14.图神经网络
+#### 14.图神经网络
 - 一、GNN[2009]
 - 二、Spectral Networks & Deep Locally Connected Networks [2013]
 - 三、Fast Localized Spectral Filtering On Graph[2016]
@@ -400,7 +400,7 @@ Transformer 章节 新增：Transformer-XL, XLNet, MT-DNN, ERNIE, ERNIE 2.0, BER
 - 十一、 AGCN[2018]
 - 十二、FastGCN[2018]
 - 十三、PinSage[2018]
-- 15.图神经网络(续)
+#### 15.图神经网络(续)
 - 十四、GCMC
 - 十五、JK-Net
 - 十六、PPNP
@@ -414,7 +414,7 @@ Transformer 章节 新增：Transformer-XL, XLNet, MT-DNN, ERNIE, ERNIE 2.0, BER
 - 二十四、HGT
 - 二十五、GPT-GNN
 - 二十六、Geom-GCN
-- 16.图神经网络(综述及其它)
+#### 16.图神经网络(综述及其它)
 - 一、A Comprehensive Survey of Graph Embedding
 - 二、Graph Embedding Techniques, Applications, and Performance
 - 三、Representation Learning on Graphs
@@ -424,7 +424,7 @@ Transformer 章节 新增：Transformer-XL, XLNet, MT-DNN, ERNIE, ERNIE 2.0, BER
 - 七、GNN : A Review
 - 八、A Comprehensive Survey On GNN
 - 九、GNNEXPLAINER
-- 17.图神经网络(综述续)
+#### 17.图神经网络(综述续)
 - 一、GIN
 - 二、GCN 自监督学习
 - 三、GNN 公平比较
@@ -441,7 +441,7 @@ Transformer 章节 新增：Transformer-XL, XLNet, MT-DNN, ERNIE, ERNIE 2.0, BER
 - 十四、DIFFPOLL
 - 十五、DCNN
 - 十六、IN
-- 18.传统推荐算法
+#### 18.传统推荐算法
 - 一、Tapestry[1992]
 - 二、GroupLens[1994]
 - 三、ItemBased CF[2001]
@@ -456,14 +456,14 @@ Transformer 章节 新增：Transformer-XL, XLNet, MT-DNN, ERNIE, ERNIE 2.0, BER
 - 十二、BPR[2009]
 - 十三、MF for RS[2009]
 - 十四、 Netflix BellKor Solution[2009]
-- 21.神经网络推荐算法(续)
+#### 21.神经网络推荐算法(续)
 - 二十二、COLD[2020 ] (Pre-Ranking 模型)
 - 二十三、ComiRec[2020] (matching阶段)
 - 二十四、EdgeRec[2020]
 - 二十五、DPSR[2020]（检索）
 - 二十六、PDN[2021]（mathcing）
 - 二十七、时空周期兴趣学习网络ST-PIL[2021]
-- 19.神经网络推荐算法
+#### 19.神经网络推荐算法
 - 一、MIND[2019]（用于召回）
 - 二、DNN For YouTube[2016]
 - 三、Recommending What Video to Watch Next[2019]
@@ -474,7 +474,7 @@ Transformer 章节 新增：Transformer-XL, XLNet, MT-DNN, ERNIE, ERNIE 2.0, BER
 - 八、TDM[2018]（用于检索）
 - 九、DR[2020]（用于检索）
 - 十、JTM[2019]（用于检索）
-- 20.神经网络推荐算法(续)
+#### 20.神经网络推荐算法(续)
 - 十一、Pinterest Recommender System[2017]
 - 十二、DLRM[2019]
 - 十三、Applying Deep Learning To Airbnb Search[2018]
@@ -486,11 +486,11 @@ Transformer 章节 新增：Transformer-XL, XLNet, MT-DNN, ERNIE, ERNIE 2.0, BER
 - 十九、Sampling-Bias-Corrected Neural Modeling[2019]（检索）
 - 二十、EGES[2018]（Matching 阶段）
 - 二十一、SDM[2019]（Matching 阶段）
-- 22.多任务学习
+#### 22.多任务学习
 - 一、MMOE[2018]
-- 23.系统架构
+#### 23.系统架构
 - 一、Hidden Technical Debt[2015]
-- 24.工程实践指导原则
+#### 24.工程实践指导原则
 - 一、性能度量
 - 二、默认的基准模型
 - 三、决定是否收集更多数据
@@ -500,7 +500,7 @@ Transformer 章节 新增：Transformer-XL, XLNet, MT-DNN, ERNIE, ERNIE 2.0, BER
 - 七、数据预处理
 - 八、变量初始化
 - 九、结构设计
-- 25.推荐算法之序列推荐
+#### 25.推荐算法之序列推荐
 - 一、FPMC[2010]
 - 二、GRU4Rec[2015]
 - 三、HRM[2015]
@@ -508,7 +508,7 @@ Transformer 章节 新增：Transformer-XL, XLNet, MT-DNN, ERNIE, ERNIE 2.0, BER
 - 五、Improved GRU4Rec[2016]
 - 六、NARM[2017]
 - 七、HRNN[2017]
-- 26.推荐算法之序列推荐（续）
+#### 26.推荐算法之序列推荐（续）
 - 八、RRN[2017]
 - 九、Caser[2018]
 - 十、p-RNN[2016]
@@ -516,7 +516,7 @@ Transformer 章节 新增：Transformer-XL, XLNet, MT-DNN, ERNIE, ERNIE 2.0, BER
 - 十二、SASRec[2018]
 - 十三、RUM[2018]
 - 十四、SHAN[2018]
-- 27.推荐算法之序列推荐（续）
+#### 27.推荐算法之序列推荐（续）
 - 十五、Phased LSTM[2016]
 - 十六、Time-LSTM[2017]
 - 十七、STAMP[2018]
@@ -525,210 +525,210 @@ Transformer 章节 新增：Transformer-XL, XLNet, MT-DNN, ERNIE, ERNIE 2.0, BER
 - 二十、SR-GNN[2019]
 - 二十一、GC-SAN[2019]
 - 二十二、BERT4Rec[2019]
-- 工具
-- CRF
+### 工具
+#### CRF
 - CRF++
-- 一、安装
-- 二、使用
-- 三、Python接口
-- 四、常见错误
-- lightgbm
+    - 一、安装
+    - 二、使用
+    - 三、Python接口
+    - 四、常见错误
+#### lightgbm
 - lightgbm使用指南
-- 一、安装
-- 二、调参
-- 三、进阶
-- 四、API
-- 五、Docker
-- xgboost
+    - 一、安装
+    - 二、调参
+    - 三、进阶
+    - 四、API
+    - 五、Docker
+#### xgboost
 - xgboost使用指南
-- 一、安装
-- 二、调参
-- 三、外存计算
-- 四、 GPU计算
-- 五、单调约束
-- 六、 DART booster
-- 七、Python API
-- scikit-learn
+    - 一、安装
+    - 二、调参
+    - 三、外存计算
+    - 四、 GPU计算
+    - 五、单调约束
+    - 六、 DART booster
+    - 七、Python API
+#### scikit-learn
 - 1.预处理
-- 一、特征处理
-- 二、特征选择
-- 三、字典学习
-- 四、PipeLine
+    - 一、特征处理
+    - 二、特征选择
+    - 三、字典学习
+    - 四、PipeLine
 - 2.降维
-- 一、PCA
-- 二、MDS
-- 三、Isomap
-- 四、LocallyLinearEmbedding
-- 五、FA
-- 六、FastICA
-- 七、t-SNE
+    - 一、PCA
+    - 二、MDS
+    - 三、Isomap
+    - 四、LocallyLinearEmbedding
+    - 五、FA
+    - 六、FastICA
+    - 七、t-SNE
 - 3.监督学习模型
-- 一、线性模型
-- 二、支持向量机
-- 三、贝叶斯模型
-- 四、决策树
-- 五、KNN
-- 六 、AdaBoost
-- 七、梯度提升树
-- 八、Random Forest
+    - 一、线性模型
+    - 二、支持向量机
+    - 三、贝叶斯模型
+    - 四、决策树
+    - 五、KNN
+    - 六 、AdaBoost
+    - 七、梯度提升树
+    - 八、Random Forest
 - 4.模型评估
-- 一、数据集切分
-- 二、性能度量
-- 三、验证曲线 && 学习曲线
-- 四、超参数优化
+    - 一、数据集切分
+    - 二、性能度量
+    - 三、验证曲线 && 学习曲线
+    - 四、超参数优化
 - 5.聚类模型
-- 一、KMeans
-- 二、DBSCAN
-- 三、MeanShift
-- 四、AgglomerativeClustering
-- 五、BIRCH
-- 六、GaussianMixture
-- 七、SpectralClustering
+    - 一、KMeans
+    - 二、DBSCAN
+    - 三、MeanShift
+    - 四、AgglomerativeClustering
+    - 五、BIRCH
+    - 六、GaussianMixture
+    - 七、SpectralClustering
 - 6.半监督学习模型
-- 一、标签传播算法
+    - 一、标签传播算法
 - 7.隐马尔可夫模型
-- 一、Hmmlearn
-- 二、seqlearn
-- spark
+    - 一、Hmmlearn
+    - 二、seqlearn
+#### spark
 - 1.基础概念
-- 一、核心概念
-- 二、安装和使用
-- 三、 pyspark shell
-- 四、独立应用
+    - 一、核心概念
+    - 二、安装和使用
+    - 三、 pyspark shell
+    - 四、独立应用
 - 2.rdd使用
-- 一、概述
-- 二、创建 RDD
-- 三、转换操作
-- 四、行动操作
-- 五、其他方法和属性
-- 六、持久化
-- 七、分区
-- 八、混洗
+    - 一、概述
+    - 二、创建 RDD
+    - 三、转换操作
+    - 四、行动操作
+    - 五、其他方法和属性
+    - 六、持久化
+    - 七、分区
+    - 八、混洗
 - 3.dataframe使用
-- 一、概述
-- 二、SparkSession
-- 三、DataFrame 创建
-- 四、 DataFrame 保存
-- 五、DataFrame
-- 六、Row
-- 七、Column
-- 八、GroupedData
-- 九、functions
+    - 一、概述
+    - 二、SparkSession
+    - 三、DataFrame 创建
+    - 四、 DataFrame 保存
+    - 五、DataFrame
+    - 六、Row
+    - 七、Column
+    - 八、GroupedData
+    - 九、functions
 - 4.累加器和广播变量
-- 一、累加器
-- 二、广播变量
-- numpy
+    - 一、累加器
+    - 二、广播变量
+#### numpy
 - numpy 使用指南
-- 一、 ndarray
-- 二、 ufunc 函数
-- 三、 函数库
-- 四、数组的存储和加载
-- scipy
+    - 一、 ndarray
+    - 二、 ufunc 函数
+    - 三、 函数库
+    - 四、数组的存储和加载
+#### scipy
 - scipy 使用指南
-- 一、 常数和特殊函数
-- 二、 拟合与优化
-- 三、线性代数
-- 四、 统计
-- 五、数值积分
-- 六、 稀疏矩阵
-- matplotlib
+    - 一、 常数和特殊函数
+    - 二、 拟合与优化
+    - 三、线性代数
+    - 四、 统计
+    - 五、数值积分
+    - 六、 稀疏矩阵
+#### matplotlib
 - matplotlib 使用指南
-- 一、matplotlib配置
-- 二、 matplotlib Artist
-- 三、基本概念
-- 四、布局
-- 五、 Path
-- 六、 path effect
-- 七、坐标变换
-- 八、 3D 绘图
-- 九、技巧
-- pandas
+    - 一、matplotlib配置
+    - 二、 matplotlib Artist
+    - 三、基本概念
+    - 四、布局
+    - 五、 Path
+    - 六、 path effect
+    - 七、坐标变换
+    - 八、 3D 绘图
+    - 九、技巧
+#### pandas
 - pandas 使用指南
-- 一、基本数据结构
-- 二、 内部数据结构
-- 三、 下标存取
-- 四、 运算
-- 五、变换
-- 六、数据清洗
-- 七、 字符串操作
-- 八、 聚合与分组
-- 九、时间序列
-- 十、 DataFrame 绘图
-- 十一、 移动窗口函数
-- 十二、 数据加载和保存
-- Scala
+    - 一、基本数据结构
+    - 二、 内部数据结构
+    - 三、 下标存取
+    - 四、 运算
+    - 五、变换
+    - 六、数据清洗
+    - 七、 字符串操作
+    - 八、 聚合与分组
+    - 九、时间序列
+    - 十、 DataFrame 绘图
+    - 十一、 移动窗口函数
+    - 十二、 数据加载和保存
+#### Scala
 - 环境搭建
-- 一、安装 scala
-- 二、安装 Jupyter 支持
-- 三、Scala 解释器
-- 四、IntelliJ 使用
-- 五、Maven 使用
+    - 一、安装 scala
+    - 二、安装 Jupyter 支持
+    - 三、Scala 解释器
+    - 四、IntelliJ 使用
+    - 五、Maven 使用
 - 基础知识
-- 一、Scala 特点
-- 二、入门
-- 三、For 表达式
+    - 一、Scala 特点
+    - 二、入门
+    - 三、For 表达式
 - 函数
-- 一、函数定义
-- 二、函数分类
-- 三、闭包
-- 四、递归函数
-- 五、自定义控制结构
+    - 一、函数定义
+    - 二、函数分类
+    - 三、闭包
+    - 四、递归函数
+    - 五、自定义控制结构
 - 类
-- 一、类的定义
-- 二、单例对象
-- 三、访问级别
-- 四、继承
-- 五、Trait
-- 五、包和导入
-- 五、隐式类型转换
-- 六、编译和执行
-- 七、可变对象
-- 八、类型参数化
-- 九、抽象成员
-- 十、模块化编程
-- 十一、对象相等性
+    - 一、类的定义
+    - 二、单例对象
+    - 三、访问级别
+    - 四、继承
+    - 五、Trait
+    - 五、包和导入
+    - 五、隐式类型转换
+    - 六、编译和执行
+    - 七、可变对象
+    - 八、类型参数化
+    - 九、抽象成员
+    - 十、模块化编程
+    - 十一、对象相等性
 - 样式类和模式匹配
-- 一、样例类
-- 二、模式匹配
-- 三、Option 类型
-- 四、一切皆模式
-- 五、提取器
+    - 一、样例类
+    - 二、模式匹配
+    - 三、Option 类型
+    - 四、一切皆模式
+    - 五、提取器
 - 测试和注解
-- 一、断言
-- 二、测试
-- 三、注解
+    - 一、断言
+    - 二、测试
+    - 三、注解
 - 集合collection
-- 一、Traversable
-- 二、Iterable
-- 三、Seq
-- 四、LinearSeq/IndexedSeq
-- 五、Buffer
-- 六、Array
-- 七、List
-- 八、ListBuffer/ArrayBuffer
-- 九、Set
-- 十、Map
-- 十一、String&StringOps
-- 十二、元组
-- 十三、其它不可变集合
-- 十四、其它可变集合
-- 十五、性能
+    - 一、Traversable
+    - 二、Iterable
+    - 三、Seq
+    - 四、LinearSeq/IndexedSeq
+    - 五、Buffer
+    - 六、Array
+    - 七、List
+    - 八、ListBuffer/ArrayBuffer
+    - 九、Set
+    - 十、Map
+    - 十一、String&StringOps
+    - 十二、元组
+    - 十三、其它不可变集合
+    - 十四、其它可变集合
+    - 十五、性能
 - 集合collection（二）
-- 一、视图
-- 二、迭代器
-- 三、集合相等性
-- 四、创建集合对象
-- 五、List 原理
-- 六、Java 和 Scala 集合
-- 七、Scala 集合框架
+    - 一、视图
+    - 二、迭代器
+    - 三、集合相等性
+    - 四、创建集合对象
+    - 五、List 原理
+    - 六、Java 和 Scala 集合
+    - 七、Scala 集合框架
 - 集成Java
-- 一、通用规则
-- 二、特殊规则
-- 三、注解
-- 四、通配类型
-- 五、同时编译 Scala 和 Java
-- 六、Scala2.12 和 Java 8 的集成
+    - 一、通用规则
+    - 二、特殊规则
+    - 三、注解
+    - 四、通配类型
+    - 五、同时编译 Scala 和 Java
+    - 六、Scala2.12 和 Java 8 的集成
 - 并发
-- 一、基本概念
-- 二、使用 Future
-- 三、测试
+    - 一、基本概念
+    - 二、使用 Future
+    - 三、测试
